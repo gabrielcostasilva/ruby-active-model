@@ -1,12 +1,10 @@
-require 'ostruct'
+# frozen_string_literal: true
 
-class Todo 
-  include StoreModel::Model
+require 'active_model'
 
-    attribute :title, :string
-    enum :completed, %i[active archived], default: :active
-
-    validates :title, :completed, presence: true
+class Todo
+  include ActiveModel::Model
+  attr_accessor :title, :completed
 end
 
 class TodosController < ApplicationController
