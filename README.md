@@ -10,4 +10,4 @@ In the three examples, I use them to group values of a single response entity. *
 - use Store Model when saving data in PostgreSQL JSON fields;
 - use OpenStruct when dealing with dynamic objects or simple structures.
 
-[Active Records](https://guides.rubyonrails.org/active_record_basics.html) is yet another option, but they are intended for mapping database tables.
+[Active Record](https://guides.rubyonrails.org/active_record_basics.html) is yet another option, but they are intended for mapping database tables.
